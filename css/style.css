@@ -91,7 +91,7 @@ p.large { font-weight:bold; font-size:22px; margin-bottom:20px; }
 .form p{ color:red;}
 .section-form { background:#fff; padding:30px; border-radius:25px; margin-top:30px;}
 .form-group {margin-bottom: 0px;}
-.section-form input, .section-form select{ height:44px; background:#B0E71F; padding-right:25px;} 
+.section-form input, .section-form select{ height:44px; background:#B0E71F; padding-right:25px;}
 .has-success .form-control-feedback{ color:#0A8AF3;}
 .has-success .form-control, input.form-control:focus{ border:2px solid #2cc; background:#fff; box-shadow:none;}
 .form-control-feedback{ line-height:44px; right:18px;}
@@ -149,7 +149,7 @@ p.large { font-weight:bold; font-size:22px; margin-bottom:20px; }
 	#carousel_gallery{ display:inline-block;}
 	.sponsor{ margin-top:5px; margin-bottom:0px;}
 	.sponsor .row div{ margin-bottom:10px;}
-	
+
 }
 /*======600px*/
 @media only screen and (max-width : 600px) {
@@ -157,11 +157,35 @@ p.large { font-weight:bold; font-size:22px; margin-bottom:20px; }
 	#header h1{ font-size:20px;}
 	#header p { font-size:15px;}
 	.section-btn .btn{ font-size:12px;}
-	
+
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	
+}
 
+.z1:after{
+	position: absolute;
+	content: "PUSH";
+	top: 0px;
+	left: 0px;
+  color: red;
+  border: 2px dotted blue;
+  padding: 2px;
+  background: yellow;
+  font-size: 15px;
+
+}
+
+.z2:after{
+	position: relative;;
+	content: "PUSH";
+	top: 0px;
+	left: 0px;
+  color: red;
+  border: 2px dotted blue;
+  padding: 2px;
+  background: yellow;
+  font-size: 15px;
+	margin-left: 15px;
 }
