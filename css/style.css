@@ -166,7 +166,7 @@ p.large { font-weight:bold; font-size:22px; margin-bottom:20px; }
 
 .z1:after{
 	position: absolute;
-	content: "PUSH";
+	content: "Click!";
 	top: 0px;
 	left: 0px;
   color: red;
@@ -179,7 +179,7 @@ p.large { font-weight:bold; font-size:22px; margin-bottom:20px; }
 
 .z2:after{
 	position: relative;;
-	content: "PUSH";
+	content: "Click!";
 	top: 0px;
 	left: 0px;
   color: red;
